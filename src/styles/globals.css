@@ -16,7 +16,10 @@ a {
 }
 .content {
   margin: 0;
+  max-width: 1024;
   height: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 nav {
   margin: 10px auto 80px;

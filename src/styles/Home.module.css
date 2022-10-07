@@ -1,0 +1,66 @@
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.text {
+  color: #777;
+  text-align: center;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+.main {
+  margin: 0;
+  left: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:100vh;
+}
+.text1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.text2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-block-start: 0.5rem;
+  margin-block-end: 2rem;
+}
+.avatar {
+  padding-bottom: 15px;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+/* 
+  & a {
+    & :hover {
+      color: white;
+      cursor: pointer;
+    }
+  } */
+}
+
+.social {
+  display: inline;
+  transition: color 1s ease;
+  margin-left: 1rem;
+  width: 20%;
+  height: 3rem;
+}

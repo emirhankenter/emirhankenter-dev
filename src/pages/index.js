@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Emirhan KENTER</title>
+        <title>M. Emirhan KENTER</title>
         <meta name='keywords' content='pikagames'></meta>
       </Head>
       <div className={styles.main}>
@@ -20,7 +20,7 @@ export default function Home() {
             />
         </div>
         <h1 className={styles.text1}>Hello world! I am Emirhan</h1>
-        <h2 className={styles.text2}>{"Senior Game Developer at Rollic Games"}</h2>
+        <h2 className={styles.text2}>{"Software Engineer at Peak"}</h2>
         <div className={styles.social}>
           <div className={styles.socialIcons}>
           <Link href='https://github.com/emirhankenter'>

@@ -43,24 +43,18 @@
 .avatar {
   padding-bottom: 15px;
 }
-.socialIcons {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin: auto;
-/* 
-  & a {
-    & :hover {
-      color: white;
-      cursor: pointer;
-    }
-  } */
-}
 
 .social {
-  display: inline;
-  transition: color 1s ease;
-  margin-left: 1rem;
-  width: 256px;
-  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 2rem; /* Adds spacing between icons */
+  justify-content: center;
+  align-items: center;
 }

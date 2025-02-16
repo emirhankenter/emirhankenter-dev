@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.social}>
           <div className={styles.socialIcons}>
           <Link href='https://github.com/emirhankenter'>
-            <a className={styles.socialIcons} target="_blank">
+            <a className={styles.socialIcons}>
               <Image
                 src="/social/github-logo.png"
                 alt="example"
@@ -34,7 +34,7 @@ export default function Home() {
             </a>
           </Link>
           <Link href='https://www.linkedin.com/in/emirhankenter/'>
-            <a className={styles.socialIcons} target="_blank">
+            <a className={styles.socialIcons}>
               <Image
                 src="/social/linkedin-logo.png"
                 alt="example"

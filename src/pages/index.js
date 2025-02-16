@@ -43,16 +43,6 @@ export default function Home() {
               />
             </a>
           </Link>
-          <Link href='https://pika.games'>
-            <a className={styles.socialIcons} target="_blank">
-              <Image
-                src="/social/pikagames-logo.png"
-                alt="example"
-                width={64}
-                height={64}
-              />
-            </a>
-          </Link>
           </div>
         </div>
       </div>
